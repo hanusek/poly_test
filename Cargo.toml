@@ -1,0 +1,9 @@
+[package]
+name = "poly_test"
+version = "0.1.0"
+authors = ["Michał Hanusek <mhanusek@energotest.com.pl>"]
+edition = "2018"
+
+[dependencies]
+async-trait = "0.1.30"
+tokio = { version = "0.2.20", features = ["full"] }
